@@ -1,5 +1,7 @@
 package com.example.application;
 
+import com.example.application.ui.exercises.Goal;
+
 public class Muscle extends Goal {
     private int reps;
 

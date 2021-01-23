@@ -1,9 +1,6 @@
 package com.example.application;
 
-import com.example.application.Cardio;
-import com.example.application.Muscle;
-
-import java.util.ArrayList;
+import com.example.application.ui.exercises.Cardio;
 
 class Main {
     public static void main(String[] args) {

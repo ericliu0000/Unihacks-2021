@@ -1,4 +1,4 @@
-package com.example.application;
+package com.example.application.ui.exercises;
 
 class Goal {
     private int frequency;

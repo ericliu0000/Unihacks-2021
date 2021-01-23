@@ -1,0 +1,14 @@
+*.iml
+.gradle
+/local.properties
+.idea*
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+App/.settings/org.eclipse.buildship.core.prefs
+App/local.properties
+local
+local**
+*.properties

@@ -1,4 +1,4 @@
-package com.example.application;
+package com.example.application.ui.exercises;
 
 import com.example.application.ui.exercises.Goal;
 

@@ -30,6 +30,14 @@ public class CalendarFragment extends Fragment {
                 textView.setText(s);
             }
         });
+        final TextView exampleTextView = root.findViewById(R.id.textView);
+        calendarViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
+            @Override
+            public void onChanged(@Nullable String s) {
+                exampleTextView.setText(s);
+            }
+        });
+
         return root;
     }
 }

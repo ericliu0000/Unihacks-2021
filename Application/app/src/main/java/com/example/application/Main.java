@@ -1,11 +1,16 @@
+package com.example.application;
+
+import com.example.application.Cardio;
+import com.example.application.Muscle;
+
 import java.util.ArrayList;
 
 class Main {
     public static void main(String[] args) {
-        cardio x = new cardio(5);
+        Cardio x = new Cardio(5);
         System.out.println(x.getType());
 
-        muscle y = new muscle(5, "chest", 50);
+        Muscle y = new Muscle(5, "chest", 50);
 
     }
 }

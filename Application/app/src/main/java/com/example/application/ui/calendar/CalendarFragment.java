@@ -14,7 +14,7 @@ import androidx.lifecycle.ViewModelProvider;
 
 import com.example.application.R;
 
-public class CalendarFragment extends Fragment {
+public class  CalendarFragment extends Fragment {
 
     private CalendarViewModel calendarViewModel;
 

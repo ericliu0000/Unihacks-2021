@@ -31,7 +31,7 @@ public class  CalendarFragment extends Fragment {
             }
         });
 
-        final TextView exampleTextView = root.findViewById(R.id.calendar1);
+        final TextView exampleTextView = root.findViewById(R.id.calendar2);
         calendarViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {

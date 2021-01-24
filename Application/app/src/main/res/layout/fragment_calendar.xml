@@ -48,7 +48,7 @@
         android:layout_marginLeft="152dp"
         android:layout_marginTop="340dp"
         android:onClick="exampleButton"
-        android:text=""
+        android:text="@string/button_name"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="OnClick" />

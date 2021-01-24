@@ -22,9 +22,11 @@
     <string name="cal9">"    Shoulder Stretch, 15 seconds"</string>
     <string name="cal10">"    Running, 0.25 miles"</string>
     <string name="cal11">Saturday</string>
-    <string name="cal12">"    Chin ups, 15  Milestone Test: Chin ups"</string>
+    <string name="cal12">"    Chin ups, 15           Milestone Test: Chin ups"</string>
     <string name="cal13">Sunday</string>
     <string name="cal14">"    Crunches, 30"</string>
     <string name="cal15">"    Biking, 0.5 miles"</string>
+    <string name="exercises_head">Exercises</string>
+    <string name="exercise_button">+</string>
 
 </resources>

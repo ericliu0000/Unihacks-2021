@@ -7,13 +7,13 @@
 
     <fragment
         android:id="@+id/navigation_calendar"
-        android:name="com.example.application.ui.exercises.ExercisesFragment"
+        android:name="com.example.application.ui.calendar.CalendarFragment"
         android:label="@string/title_calendar"
         tools:layout="@layout/fragment_exercises" />
 
     <fragment
         android:id="@+id/navigation_exercises"
-        android:name="com.example.application.ui.calendar.CalendarFragment"
+        android:name="com.example.application.ui.exercises.ExercisesFragment"
         android:label="@string/title_exercises"
         tools:layout="@layout/fragment_calendar" />
 

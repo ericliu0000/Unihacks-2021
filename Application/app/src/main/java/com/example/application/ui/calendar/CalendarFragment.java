@@ -24,20 +24,20 @@ public class  CalendarFragment extends Fragment {
                 new ViewModelProvider(this).get(CalendarViewModel.class);
         View root = inflater.inflate(R.layout.fragment_calendar, container, false);
         final TextView textView = root.findViewById(R.id.calendar1);
-        calendarViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
-            @Override
-            public void onChanged(@Nullable String s) {
-                textView.setText(s);
-            }
-        });
-
-        final TextView exampleTextView = root.findViewById(R.id.calendar2);
-        calendarViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
-            @Override
-            public void onChanged(@Nullable String s) {
-                exampleTextView.setText(s);
-            }
-        });
+//        calendarViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
+//            @Override
+//            public void onChanged(@Nullable String s) {
+//                textView.setText(s);
+//            }
+//        });
+//
+//        final TextView exampleTextView = root.findViewById(R.id.calendar2);
+//        calendarViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
+//            @Override
+//            public void onChanged(@Nullable String s) {
+//                exampleTextView.setText(s);
+//            }
+//        });
 
         return root;
     }

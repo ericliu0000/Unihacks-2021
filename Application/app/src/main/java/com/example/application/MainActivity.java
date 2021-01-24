@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void exampleButton(View view) {
         wackeroons++;
-        TextView weirdView = (TextView) findViewById(R.id.text_dashboard);
+        TextView weirdView = (TextView) findViewById(R.id.calendar1);
         weirdView.setText(String.valueOf(wackeroons));
     }
 

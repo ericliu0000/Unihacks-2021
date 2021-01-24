@@ -5,4 +5,10 @@
     <string name="title_profile">Profile</string>
     <string name="button_name">Press Button</string>
     <string name="profile_name">Name: </string>
+    <string name="profile_height">Height: </string>
+    <string name="profile_weight">Weight: </string>
+    <string name="profile_partner_name">Name: </string>
+    <string name="profile_email">Email: </string>
+    <string name="profile_phone">Phone: </string>
+
 </resources>

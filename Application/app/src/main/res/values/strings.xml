@@ -11,5 +11,14 @@
     <string name="profile_email">Email: </string>
     <string name="profile_phone">Phone: </string>
     <string name="profile_title2">Accountability partner</string>
+    <string name="cal1">Monday</string>
+    <string name="cal2">"    Chin ups, 12"</string>
+    <string name="cal3">"    Running, 0.25 miles"</string>
+    <string name="cal4">Tuesday</string>
+    <string name="cal5">Wednesday</string>
+    <string name="cal6">"    Biking, 0.5 miles"</string>
+    <string name="cal7">Thursday</string>
+    <string name="cal8">Friday</string>
+    <string name="cal9">MondayFriday</string>
 
 </resources>

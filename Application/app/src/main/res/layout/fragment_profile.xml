@@ -64,22 +64,20 @@
         android:layout_marginStart="76dp"
         android:layout_marginLeft="76dp"
         android:layout_marginTop="44dp"
-        android:text="TextView"
+        android:text="@string/profile_title2"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName4"
-        tools:text="Accountability Partner" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName4" />
 
     <EditText
         android:id="@+id/editTextTextPersonName5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="76dp"
-        android:layout_marginLeft="76dp"
-        android:layout_marginTop="28dp"
-        android:ems="10"
+        android:layout_marginStart="136dp"
+        android:layout_marginLeft="136dp"
+        android:layout_marginTop="32dp"
+        android:ems="7"
         android:inputType="textPersonName"
-        android:text="Partner name:"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
@@ -87,12 +85,11 @@
         android:id="@+id/editTextTextEmailAddress3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="76dp"
-        android:layout_marginLeft="76dp"
+        android:layout_marginStart="136dp"
+        android:layout_marginLeft="136dp"
         android:layout_marginTop="28dp"
-        android:ems="10"
+        android:ems="7"
         android:inputType="textEmailAddress"
-        android:text="Partner email:"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName5" />
 
@@ -100,12 +97,11 @@
         android:id="@+id/editTextPhone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="76dp"
-        android:layout_marginLeft="76dp"
+        android:layout_marginStart="136dp"
+        android:layout_marginLeft="136dp"
         android:layout_marginTop="28dp"
-        android:ems="10"
+        android:ems="7"
         android:inputType="phone"
-        android:text="Partner phone number:"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress3" />
 
@@ -116,11 +112,10 @@
         android:layout_marginStart="76dp"
         android:layout_marginLeft="76dp"
         android:layout_marginTop="60dp"
-        android:text="TextView"
+        android:text="@string/title_profile"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:text="@string/title_profile" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView3"
@@ -129,10 +124,9 @@
         android:layout_marginStart="76dp"
         android:layout_marginLeft="76dp"
         android:layout_marginTop="32dp"
-        android:text="TextView"
+        android:text="@string/profile_name"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        tools:text="@string/profile_name" />
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
